@@ -1,0 +1,17 @@
+.header{
+    display: flex; 
+    align-items: center;
+  }
+  img{
+    border-radius: 100px; 
+    margin-left: 20px;
+  }
+  .web-name{
+    margin-left: 10px; 
+    font-family: 'Georgia', serif; 
+    color:  rgb(7, 7, 7);
+  }
+  .navb{
+    margin-top: 15px; 
+    margin-left: auto;
+  }

@@ -1,0 +1,20 @@
+.head{
+    display: flex;
+     align-items: center;
+  }
+  img{
+    border-radius: 100px; 
+    margin-left: 20px;
+  }
+  h1{
+    margin-left: 10px; 
+    font-family: 'Georgia', serif; 
+    color:  rgb(7, 7, 7);
+  }
+  nav{
+    margin-top: 15px; 
+    margin-left: auto;
+  }
+  .main{
+    color:rgb(7, 7, 7)
+  }

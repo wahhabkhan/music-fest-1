@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Music Festival</title>
+</head>
+
+<body>
+  <header class="header">
+    <div>
+      <img class="img" src="/images/logo.jpg" alt="Music Festival Logo" width="80" height="80">
+    </div>
+    <h1><i>Music Festival</i></h1>
+    <nav class="navb">
+      <ul>
+        <i>
+          <li><a href="/">Home</a></li>
+          <li><a href="/stages">Stages</a></li>
+          <li><a href="/lineup">Lineup</a></li>
+          <li><a href="/activity">Activity</a></li>
+
+        </i>
+      </ul>
+    </nav>
+
+  </header>
+
+  <h3 class="event" id="headline">
+    <i> EVENT DATE: 20TH OF JANUARY</b></i>
+  </h3>
+  <main>
+    <div class="hero-section">
+      <div>
+        <img class="rounded-image" src="/images/banner.jpg" alt="Music Festival" width="800px" height="300px">
+      </div>
+      <div>
+        <p class="banner">
+          Take in the thrilling energy of the Music Festival, a remarkable occasion that promises to enthrall people on
+          January 20. Enjoy an unparalleled aural experience as gifted musicians and bands from all around the world
+          come together on a single platform, sure to delight your senses. Our festival stages will come to life with
+          every beat and melody, providing a wide range of performances to suit every musical taste. Come along on this
+          beautiful voyage that breaks down barriers and honors the global language of music, from the thrilling lineup
+          to the entrancing atmosphere. Remember to mark January 20th in your calendars because it will be a day filled
+          with rhythm, melody, and a symphony of memories ready to be made at the Music Festival.
+        </p>
+      </div>
+    </div>
+
+    <br><br><br>
+
+    <section class="feature-section">
+      <div class="feature">
+        <div class="flex">
+          <img src="/images/lineup.jpg" alt="Lineup" id="lineup">
+          <div>
+            <h2>Our incredible lineup!</h2>
+            <p style="text-align: justify;">Prepare to be mesmerized by the stellar lineup we have curated for the Music
+              Festival. Our stage is set to host bringing their unique flair and talent. From chart-topping artists to
+              emerging talents on the rise, our lineup promises an eclectic mix of genres that will resonate with every
+              music enthusiast. Get ready to dance to the beats of renowned bands, sing along with your favorite
+              artists. Whether you're a fan of rock, pop, or electronic music, our diverse lineup has something for
+              everyone.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br><br><br><br><br>
+
+    <div class="stage-head">
+      <h2>Take a look at our festival stages!</h2>
+    </div>
+
+    <section class="feature-section">
+      <div class="feature">
+
+        <div class="flex">
+          <img class="stg-img" src="/images/stage1.jpeg" alt="Stages">
+
+          <img src="/images/stage2.jpeg" alt="Stages">
+        </div>
+
+        <div class="flex">
+          <div class="stage-text">
+            <h2>Main Stage</h2>
+            <p class="stage-para">Get ready for the heart of the Music Festival at our Main Stage. This iconic
+              platform will host headlining acts, delivering electrifying performances that will reverberate through the
+              crowd. From rock anthems to soulful ballads, the Main Stage is where musical magic happens.</p>
+          </div>
+          <div class="stage-text">
+            <h2>Acoustic Stage</h2>
+            <p class="stages">For an intimate and soulful experience, head over to our
+              Acoustic Stage. Nestled in a cozy corner, this
+              stage will showcase stripped-down performances, allowing you to connect with the artists on a more
+              personal level. Unplug from the world and immerse yourself in acoustic melodies.</p>
+          </div>
+
+        </div>
+
+        <br><br>
+        <div class="flex">
+          <img class="stg-img" src="/images/stage3.jpeg" alt="Stages">
+
+          <img src="/images/stage4.jpeg" alt="Stages">
+        </div>
+
+        <div class="flex">
+          <div class="stage-text">
+            <h2>Electronic Stage</h2>
+            <p class="stage-para">Dive into the beats and rhythms of the future at our Electronic Stage. This
+              cutting-edge platform is dedicated to electronic and dance music, featuring top DJs. Illuminate your night
+              as the stage comes alive with vibrant lights, pulsating bass, and an atmosphere of pure energy.</p>
+          </div>
+          <div class="stage-text">
+            <h2>Grove Stage</h2>
+            <p class="stages">Embark on a journey of sonic exploration at our Enchanted
+              Grove Stage. From acoustic melodies that harmonize with the rustling leaves to eclectic performances that
+              resonate with the spirit of the grove, this stage promises an immersive and unforgettable musical odyssey.
+            </p>
+          </div>
+
+        </div>
+
+
+      </div>
+    </section>
+
+    <br><br><br><br><br>
+
+    <section class="faq-section">
+      <h1>FAQ</h1>
+
+      <div class="faq" onclick="toggleAnswer('event-date')">
+        <p>When this event will take place? <span class="toggle-icon">▼</span></p>
+        <div id="event-date" class="answer">
+          <p>The event will take place on 20th of January</p>
+        </div>
+      </div>
+
+
+      <div class="faq" onclick="toggleAnswer('buy-tickets')">
+        <p>How I can buy Tickets? <span class="toggle-icon">▼</span></p>
+        <div id="buy-tickets" class="answer">
+          <p>You can contact us on numbers mentioned below. </p>
+        </div>
+      </div>
+
+      <div class="faq" onclick="toggleAnswer('linestages')">
+        <p>How I can check more details about artists and stages? <span class="toggle-icon">▼</span></p>
+        <div id="linestages" class="answer">
+          <p>You can check from lineup and stages pages in navbar. </p>
+        </div>
+      </div>
+
+    </section>
+
+    <br><br><br><br><br>
+
+    <h1>Contact Us!</h1>
+    <form action="/contact" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Type Your Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+  </main>
+
+  <br><br><br>
+
+  <footer>
+    <p>&copy;Music Festival 2024</p>
+    <div class="social-icons">
+      <p>+44 932 4392943</p>
+      <p>+44 932 4392944</p>
+      <p>music-festival@support.com</p>
+      <h3>This event will take place on 20th January!</h3>
+    </div>
+  </footer>
+
+
+</body>
+<script src="/js/app.js"></script>
+
+</html>

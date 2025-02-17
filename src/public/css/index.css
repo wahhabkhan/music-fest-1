@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    align-items: center;
+  }
+  .img{
+    border-radius: 100px; 
+    margin-left: 20px;
+  }
+  .header h1{
+    margin-left: 10px; 
+    font-family: 'Georgia', serif; 
+    color:  rgb(7, 7, 7);
+  }
+  .navb{
+    margin-top: 15px; 
+    margin-left: auto;
+  }
+  #headline{
+    text-align: center;  
+    color: #080808; 
+    background-color: #fafafc;
+  }
+  .banner{
+    color: rgb(5, 5, 5); text-align: justify;
+  }
+  #lineup{
+    max-width: 450px;  
+    height: 300px; 
+    margin-right: 30px;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+  }
+  .stages{
+    text-align: justify; 
+    margin-left: 20px;
+  }
+  .stg-img{
+    margin-right: 5px;
+  }
+  .stage-text{
+    margin-right: 10px;
+  }
+  .stage-para{
+    text-align: justify;
+  }
+  .stage-head{
+    text-align: center;
+  }
